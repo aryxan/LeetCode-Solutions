@@ -1,17 +1,14 @@
 class Solution {
 public:
     int sortPermutation(vector<int>& nums) {
-        vector<int> target = nums;
-        sort(target.begin(), target.end());
+        int ans = -1;
 
-        int n = nums.size(), answer = -1;
-
-        for (int i = 0; i < n; i++) {
-            if (nums[i] != target[i]) {
-                answer &= nums[i];
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] != i) {
+                ans &= nums[i] & i;
             }
         }
 
-        return answer == -1 ? 0 : answer;
+        return ans == -1 ? 0 : ans;
     }
 };
