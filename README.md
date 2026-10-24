@@ -37,6 +37,7 @@ My LeetCode solutions in C++, covering DSA concepts, problem-solving approaches,
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/aryxan/LeetCode-Solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [2409-count-days-spent-together](https://github.com/aryxan/LeetCode-Solutions/tree/master/2409-count-days-spent-together) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -77,4 +78,8 @@ My LeetCode solutions in C++, covering DSA concepts, problem-solving approaches,
 |  |
 | ------- |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/aryxan/LeetCode-Solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
+## String
+|  |
+| ------- |
+| [2409-count-days-spent-together](https://github.com/aryxan/LeetCode-Solutions/tree/master/2409-count-days-spent-together) |
 <!---LeetCode Topics End-->
